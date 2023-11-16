@@ -90,7 +90,7 @@ const MainPage = () => {
                        ...prevState,
                        bot2Id: e.target.value
                      }))}/>
-                <Input value={botForm.bot1Container} mb={4} placeholder='Image' type="text"
+                <Input value={botForm.bot2Container} mb={4} placeholder='Image' type="text"
                      onChange={(e) => setBotForm((prevState) => ({
                        ...prevState,
                        bot2Container: e.target.value
